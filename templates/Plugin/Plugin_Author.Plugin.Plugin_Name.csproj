@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Plugin_Author.Plugin.Plugin_Name</AssemblyName>
+    <RootNamespace>Plugin_Author.Plugin.Plugin_Name</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="sharwapi.Contracts.Core" Version="0.2.*"/>
+  </ItemGroup>
+
+</Project>

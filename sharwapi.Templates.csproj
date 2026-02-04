@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Version>0.2.0</Version>
+    <PackageType>Template</PackageType>
+    <PackageId>sharwapi.Templates</PackageId>
+    <PackageProjectUrl>https://github.com/sharwapi/sharwapi.Templates</PackageProjectUrl>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>SharwAPI</Authors>
+    <Copyright>Copyright © 2026 SharwAPI</Copyright>
+    <Description>SharwAPI 插件开发模板</Description>
+    <Product>SharwAPI Templates</Product>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <Title>SharwAPI Templates</Title>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
+    <BuildProjectReferences>false</BuildProjectReferences>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
+    <Compile Remove="templates\**\*" />
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="LICENSE" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+</Project>

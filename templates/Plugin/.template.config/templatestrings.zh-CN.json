@@ -1,0 +1,9 @@
+{
+  "name": "SharwAPI 插件开发模板",
+  
+  "description": "用于快速生成 SharwAPI 插件项目的模板。",
+
+  "symbols/Author/description": "插件作者",
+  
+  "symbols/Author/displayName": "作者名称"
+}
