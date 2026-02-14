@@ -5,7 +5,7 @@
 This is a SharwAPI-based plugin project.
 
 - **Author**: Plugin_Author
-- **Framework**: .NET 9.0
+- **Framework**: .NET 10.0
 
 ## Directory Structure
 
