@@ -16,6 +16,13 @@ public class Plugin_NamePlugin : IApiPlugin
     public string DisplayName => "";
     // 插件版本
     public string Version => "0.1.0";
+
+    // 依赖信息 (Key: 依赖插件名称, Value: 版本要求（例如 "1.0.0", "[1.0, 2.0)", "*"等）)
+    public IReadOnlyDictionary<string, string> Dependencies => new Dictionary<string, string>
+    {
+        // 示例: { "another_plugin", "1.0.0" }
+    };
+
     // 启用自动路由前缀
     public bool UseAutoRoutePrefix => true;
 
