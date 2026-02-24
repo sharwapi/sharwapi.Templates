@@ -16,7 +16,9 @@
 
 1. 在 `Plugin_NameSettings.cs` 中添加你需要的配置属性。
 2. 在 `Plugin.cs` 的 `RegisterServices` 中注入你的服务。
-3. 编译并发布到插件目录。
+3. 在 `Plugin.cs` 的 `RegisterRoutes` 中注册你的 API 路由。
+4. 在 `Plugin.cs` 的 `Configure` 中添加中间件（如有需要）。
+5. 编译并发布到插件目录。
 
 ## 注意事项
 

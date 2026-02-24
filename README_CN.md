@@ -18,10 +18,10 @@ dotnet new install sharwapi.Templates --nuget-source https://nuget.hope-now.top/
 
 ```bash
 # 基本用法
-dotnet new sharwplugin -n PluginName --Author AuthorName
+dotnet new sharwapiplugin -n PluginName --Author AuthorName
 
 # 查看帮助
-dotnet new sharwplugin --help
+dotnet new sharwapiplugin --help
 
 ```
 

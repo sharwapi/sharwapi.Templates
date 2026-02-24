@@ -16,7 +16,9 @@ This is a SharwAPI-based plugin project.
 
 1. Add your required configuration properties in `Plugin_NameSettings.cs`.
 2. Inject your services in the `RegisterServices` method within `Plugin.cs`.
-3. Build and publish the project to the plugin directory.
+3. Register your API routes in the `RegisterRoutes` method within `Plugin.cs`.
+4. Add any middleware in the `Configure` method within `Plugin.cs` (if needed).
+5. Build and publish the project to the plugin directory.
 
 ## Important Notes
 

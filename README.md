@@ -19,10 +19,10 @@ Once installed, use the following command to quickly create a new plugin project
 
 ```bash
 # Basic usage
-dotnet new sharwplugin -n PluginName --Author AuthorName
+dotnet new sharwapiplugin -n PluginName --Author AuthorName
 
 # View help
-dotnet new sharwplugin --help
+dotnet new sharwapiplugin --help
 
 ```
 
