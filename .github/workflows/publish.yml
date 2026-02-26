@@ -42,7 +42,8 @@ jobs:
         run: |
           dotnet nuget push ./nupkgs/*.nupkg \
             --source "${{ secrets.NUGET_SOURCE }}" \
-            --api-key "${{ secrets.NUGET_API_KEY }}"
+            --api-key "${{ secrets.NUGET_API_KEY }}" \
+            --skip-duplicate
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
