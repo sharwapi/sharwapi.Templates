@@ -30,6 +30,8 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     environment: nuget-release
+    permissions:
+      contents: write
 
     steps:
       - name: Download nupkg artifact
